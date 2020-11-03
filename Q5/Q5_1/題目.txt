@@ -1,0 +1,22 @@
+1.設有一CSphere 類別，可用來表示一個圓球。此類別內含x, y, z 三個資料成員，用來
+代表圓心的位置，另外還有一個radius 資料成員，代表圓球的半徑。其部份程式碼的撰寫如下：
+class CSphere
+{
+  private int x; // 圓心的x 座標
+  private int y; // 圓心的y 座標
+  private int z; // 圓心的z 座標
+  private int radius; // 圓球的半徑
+}
+(a) 試在CSphere 類別裡加入setLocation() method，用來設定圓球之圓心的位置。
+(b) 試在CSphere 類別裡加入setRadius() method，用來設定圓球之半徑。
+(c) 試在CSphere 類別裡加入surfaceArea() method，用來傳回CSphere 物件的表面積(4πr²)。
+(d) 試在CSphere 類別裡加入volume() method，用來傳回CSphere 物件的體積(4/3πr³)。
+(e) 試在CSphere 類別裡加入showCenter() method，用來顯示CSphere 物件之圓心座標。
+(f) 輸入球體的中心點及半徑，利用CSphere 類別建立一個圓球物件，並顯示球體的中心點、表面積及體積。
+輸入 ：
+3 4 5 2
+
+輸出 ：
+x=3 y=4 z=5
+50.24
+33.49333333333333
